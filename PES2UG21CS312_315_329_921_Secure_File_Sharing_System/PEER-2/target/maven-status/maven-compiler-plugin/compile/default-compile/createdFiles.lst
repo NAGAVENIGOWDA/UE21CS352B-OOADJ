@@ -1,0 +1,12 @@
+com\filesharingsystems\filesharingsystemApplication.class
+com\filesharingsystem\controller\FileController.class
+com\filesharingsystem\model\SendFile.class
+com\filesharingsystem\model\CustomMultipartFile.class
+com\filesharingsystem\model\Peer.class
+com\filesharingsystem\model\ReceiveFile.class
+com\filesharingsystem\model\Room.class
+com\filesharingsystem\service\DBService.class
+com\filesharingsystem\model\UserFactory.class
+com\filesharingsystem\model\myFile.class
+com\filesharingsystem\model\Client.class
+com\filesharingsystem\model\Crypto.class

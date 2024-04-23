@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<!--<html>
+    <head>
+        <title>Welcome</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="/createRoom" method="post">
+            <div class="container">
+                <label for="nickname"><b>Enter Nickname : </b></label>
+                <input type="text" placeholder="Enter Nickname" name="nickname" required>
+                <br>
+                <br>
+                <input type="submit" value = "Create Room" />
+            </div>
+        </form>
+        
+        <form action="/joinRoom" method="post">
+            <div class="container">
+                <label for="nickname"><b>Enter Nickname : </b></label>
+                <input type="text" placeholder="Enter Nickname" name="nickname" required>
+                <br>
+                <input type="text" placeholder="Enter room link" name="link" required>
+                <br>
+                <input type="submit" value = "Join Room" />
+            </div>
+        </form>
+    </body>
+</html> -->
+
+<html>
+  <head>
+    <title>Secure File Sharing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Styling for the form containers */
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Styling for the input fields */
+      input[type=text] {
+        padding: 10px;
+        margin: 5px 0 15px 0;
+        border: none;
+        border-radius: 5px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        width: 100%;
+      }
+
+      /* Styling for the submit buttons */
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.3s ease-in-out;
+      }
+
+      input[type=submit]:hover {
+        background-color: #3e8e41;
+      }
+
+      /* Styling for the page title */
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 36px;
+        color: #333333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the Secure File Sharing!</h1>
+    <div class="container">
+      <form action="/createRoom" method="post">
+        <label for="nickname"><b>Enter Nickname:</b></label>
+        <input type="text" placeholder="Enter Nickname" name="nickname" required>
+        <input type="submit" value="Create Room">
+      </form>
+    </div>
+    <div class="container">
+      <form action="/joinRoom" method="post">
+        <label for="nickname"><b>Enter Nickname:</b></label>
+        <input type="text" placeholder="Enter Nickname" name="nickname" required>
+        <label for="link"><b>Enter Room Link:</b></label>
+        <input type="text" placeholder="Enter Room Link" name="link" required>
+        <input type="submit" value="Join Room">
+      </form>
+    </div>
+  </body>
+</html>
+
